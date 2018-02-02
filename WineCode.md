@@ -7,8 +7,7 @@ data1<-read.csv("~/wine_red.csv")
 # Look at the column names
 names(data1)
 #data1<- na.omit(data1)
-# Split the dataset into a training and test dataset using a split of 75% training
-# and 25% test
+# Split the dataset into a training and test dataset using a split of 75% training and 25% test
 set.seed(42)
 nrow(data1)
 
